@@ -46,7 +46,19 @@ function titleCase(str){
     }
     return str .join(' ');
 }
-console.log(titleCase('A wonderful world'))
+console.log(titleCase('A wonderful world'));
+
+//0r
+
+/*function caseTitle(str){
+    let array1 = str .split(' ');
+    let newArray = [];
+    for (let x = 0; x < array1.length; x++){
+        newArray.push(array1[x].charAt(0).toUpperCase() + array1[x].slice(1))
+    }
+    return newArray.join(' ');
+}
+console.log(caseTitle('i love my life so you should love yours too'))*/
 
 
 
