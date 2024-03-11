@@ -39,18 +39,18 @@ let word3 = "UndERneath";
 let lowerCase2 = word3 .toLowerCase();
 console.log(lowerCase2);
 
-function titleCase(str){
+/*function titleCase(str){
     str = str .toLowerCase().split(' ');
     for (let i = 0; i < str.length; i++){
         str[i] = str[i] .charAt(0) .toUpperCase() + str[i] .slice(1);
     }
     return str .join(' ');
 }
-console.log(titleCase('A wonderful world'));
+console.log(titleCase('A wonderful world'));*/
 
-//0r
 
-/*function caseTitle(str){
+
+function caseTitle(str){
     let array1 = str .split(' ');
     let newArray = [];
     for (let x = 0; x < array1.length; x++){
@@ -58,7 +58,18 @@ console.log(titleCase('A wonderful world'));
     }
     return newArray.join(' ');
 }
-console.log(caseTitle('i love my life so you should love yours too'))*/
+console.log(caseTitle('A wonderful world'))
+
+    
+    
+
+    
+
+
+    
+
+
+
 
 
 
